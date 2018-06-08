@@ -1,0 +1,158 @@
+header {
+  
+    background: white;  
+    width: 100%;
+    overflow:auto;  
+    
+}
+
+body{
+    background-image: url("./images/stripes-light.png");
+    background-repeat: repeat;  
+  
+    /* padding:0px; */
+     margin: 50px; 
+     color:#4aaaa5;
+     line-height: 1.6em;
+}
+
+div.name{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    float:left;
+    padding-left:8px;
+    padding-right:8px;
+}
+
+header {   
+    background:#ffffff;
+    border: 1px solid #cccccc;
+    padding-right:10%;
+    padding-left:10%;
+    text-align: center;
+}
+
+div.links{
+    float:right;
+}
+
+section.maincontent {
+    clear:both;
+    width:960px;
+    margin:0 auto;
+    border: 1px solid red;
+    overflow:auto;
+    background: white;
+    margin-top:40px;
+}
+
+li {
+    float:left;
+    list-style: none;
+    padding-left:5em;
+    position:relative;
+    top:7px;
+    
+}
+
+li:hover{
+    background-color: #4aaaa5;
+    color:white;
+}
+
+footer{
+    clear:both;
+    height:3em;
+    background:grey;
+    width:inherit;
+    position:fixed;
+    bottom:0px;
+    left:10%;
+    text-align:center;
+    color:white;
+    font-size:1.1em;
+    padding-right:10%;
+    padding-left:10%;    
+
+}
+
+img {
+    float:left;
+    height:200px;
+    width: 200px;
+    padding-right:2em;
+    padding-left:1em;
+
+}
+
+p {
+    margin-left:1em;
+    margin-right:1em;
+}
+
+h1 {
+    padding-left: 2em;
+}
+
+hr {
+    margin-left:1em;
+    margin-right:2em;
+    margin-bottom:2em;
+}
+
+/* for portofolio styling css */
+
+div.images
+{
+    margin-left:10px;
+    padding-bottom:10px;
+    float: left;
+
+}
+
+div.row{
+    clear:right;   
+}
+
+div.images img {
+    margin:10px;
+    width:300px;
+}
+
+h3 {
+    float:left;
+    color:white;
+    background:#4aaaa5;
+    position:relative;
+    right:342px;
+    width: 300px;
+    top:130px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    display:visible;
+
+}
+
+/* CSS for Contact.html */
+
+form{
+    margin-left:30px;
+    padding-bottom:40px;
+}
+
+.button{ background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.resizedTextbox {width: 720px; height: 20px}
